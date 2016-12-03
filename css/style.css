@@ -1,0 +1,43 @@
+.changeBg {
+	height: 100px;
+	background: gray;
+	overflow-y: scroll;
+}
+
+.none {
+	display: none;
+}
+
+.scroll {
+	height: 150px;
+}
+
+.stopPropagation {
+	width: 150px;
+	height: 50px;
+	outline: 1px solid red;
+	margin: 0 auto;
+}
+
+.img_wrap {
+	width: 300px;
+	
+}
+.img_wrap img {
+	width: 100%;
+	height: auto;
+}
+.cart {
+	position: absolute;	
+	right: 0;
+	top: 0;
+}
+.cart img {
+	width: 40px;
+	height: auto;
+	margin: 0 1px;
+}
+.cart img.active {
+    border: 1px solid red;
+    margin: 0 1px;
+}
